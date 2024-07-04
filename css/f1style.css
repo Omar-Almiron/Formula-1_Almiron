@@ -1,0 +1,114 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background-color: #CC0000;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-style: groove;
+    border-color: #8D99AE;
+
+    height: 600px;
+}
+.bg-index{
+    background-image: url(../assets/header/f1-header3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.logo{
+    height: 300px;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.navegacion ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.navegacion ul li{
+    list-style: none;
+}
+.navegacion ul li a{
+    background-color: #fefdfd;
+    width: 200px;
+    border-radius: 2rem;
+    border-style: groove;
+    border-color: #8D99AE;
+    text-decoration-line: none;
+    color: #000000;
+}
+.navegacion ul li a:hover{
+    background-color: #f2ff04;
+    width: 200px;
+    border-radius: 2rem;
+    border-style: groove;
+    border-color: #8D99AE;
+    text-decoration-line: none;
+    color: #000000;
+}
+.historia{
+    background-color: #1d3557;
+    border-radius: 2rem;
+    width: 100%;
+}
+.titulo{
+    background-color: #CC0000;
+    border-radius: 2rem;
+    border-style: groove;
+    border-color: #8D99AE;
+    width: 400px;
+    color: #EDF2F4;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Hjpg{
+    height: 300px;
+    width: 300px;
+    margin: 50px;    
+}
+.Hp{
+    color: #EDF2F4;
+    margin: 50px;
+    width: 500px;
+}
+.bg-pie{
+    background-image: url(../assets/footer/fondo-footer2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+    border-color: #8D99AE;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.redes{
+    color: #8D99AE;
+    list-style: none;
+.redes a{
+    text-decoration-style: none; 
+}   
+    
+}
+.card{
+    background-color: #8D99AE;height: 700px; width: 1000px;
+    border-radius: 1rem;
+    border-style: groove;
+    border-color: #8D99AE;
+}
+.paisaje{
+    font-weight: 900;
+    background-image: url(../assets/pistas/background-card.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 200px; border-radius: 1rem;
+    
+}
