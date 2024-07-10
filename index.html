@@ -12,10 +12,7 @@
     <link rel="stylesheet" href="./css/f1style.css">
     <title>Formula-1</title> 
 </head>
-      <body>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      </body>
-    </html>
+</html>
 </head>
 <body>
     <div>
@@ -33,33 +30,45 @@
             </nav>
         </header>
         <main class="container">
-            <h1 class="titulo">
-                Calendario 2024
-            </h1>
+           <div class="d-flex justify-content-center">
+                <div>
+                    <h2 class="titulo">
+                        Calendario 2024
+                    </h2>
+                </div>
+           </div>
+            <div class="card">
+                <div>
+                    <img src="../assets/pistas/montreal.png" alt="montreal.png" class="circuito">
+                </div>
+                <article class="paisaje">
+                    <p>
+                     RONDA 9- HASTA LA PRÓXIMA 07 - 09 JUN Canadá <br>
+                     FÓRMULA 1 GRAN PREMIO DE MONTREAL 2024 <br>
+                     PRÁCTICA 1 VIE 13:30 - 14:30 <br> 
+                     PRÁCTICA 2 VIE 17:00 - 18:00 <br>
+                     PRÁCTICA 3 SAT 12:30 - 13:30 <br>
+                     CALIFICACIÓN SAT 16:00 - 17:00 <br>
+                     CARRERA DOM 14:00
+                    </p>
+                 </article>
+            </div>
             <section class="card">
-                <article>
-                   <p class="Hp, paisaje">
-                    RONDA 9- HASTA LA PRÓXIMA 07 - 09 JUN Canadá <br>
-                    FÓRMULA 1 GRAN PREMIO DE MONTREAL 2024 <br>
-                    PRÁCTICA 1 VIE 13:30 - 14:30 <br> 
-                    PRÁCTICA 2 VIE 17:00 - 18:00 <br>
-                    PRÁCTICA 3 SAT 12:30 - 13:30 <br>
-                    CALIFICACIÓN SAT 16:00 - 17:00 <br>
-                    CARRERA DOM 14:00
-                   </p>
-                </article>
-                <img src="../assets/pistas/montreal.png" alt="montreal.png">
+                <img src="../assets/pistas/Formula-1-2024-Calendario-F1-2024.jpg" alt="Calendario.jpg" class="calendario">
             </section>
-            <img src="../assets/pistas/Formula-1-2024-Calendario-F1-2024.jpg" alt="Calendario.jpg" class="card">
         </main>
         <aside class="container">
-            <h2 class="titulo">
-                Campeones de F1
-            </h2>
-            <section class="historia" class="    flex-wrap: wrap;">
-               <div class="d-inline-flex">
-                <img src="./assets/historia/hamilton.jpg" alt="hamilton.jpg" class="Hjpg img-fluid">
-                <p class="Hp">
+            <div class="d-flex justify-content-center">
+                <div class="titulo">
+                    <h2">
+                        Campeones de F1
+                    </h2>
+                </div>
+            </div>
+            <section class="historia">
+                <div class="hamilton d-flex">
+                    <img src="./assets/historia/hamilton.jpg" alt="hamilton.jpg" class="Hjpg img-fluid">
+                    <p class="Hp">
                     Lewis Hamilton
                     <br>fue piloto de la escudería McLaren, con la cual fue campeón en 2008 y subcampeón en 2007.
                     <br>A partir de 2013, se convirtió en piloto de Mercedes, resultando campeón en 2014, 2015, 2017, 2018, 2019, 2020,
@@ -67,11 +76,11 @@
                     <br>y tercero en 2023. Ha logrado alzarse con más de 103 victorias en Grandes Premios
                     <br>a lo largo de su carrera en la Fórmula 1, superando en 2020 el récord de victorias en la historia de la competición.
                     <br>A partir de 2025 competirá para la escudería italiana Ferrari.
-                </p>
-               </div>
-                <div class="d-inline-flex">
+                    </p>
+                </div>
+                <div class="senna d-flex">
                     <img src="./assets/historia/senna.jpg" alt="senna.jpg" class="Hjpg img-fluid">
-                <p class="Hp">
+                    <p class="Hp">
                     Ayrton Senna 
                     <br> fue un piloto de automovilismo brasileño. 
                     <br> Compitió en Fórmula 1 para los equipos Toleman, Lotus, McLaren y Williams, entre 1984 y 1994,
@@ -80,11 +89,11 @@
                     <br> (6 de ellas en el Gran Premio de Mónaco, récord para el evento), 80 podios y 65 pole positions en tan solo 162 clasificaciones,
                     <br> con una efectividad de más del 40 %, figura entre los más exitosos y dominantes pilotos de la era moderna,
                     <br> y, para muchos expertos, es el más rápido de la historia.
-                </p>
+                    </p>
                 </div>
-                <div class="d-inline-flex">
+                <div class="schumacher d-flex">
                     <img src="./assets/historia/schumacher.jfif" alt="schumacher.jpg" class="Hjpg img-fluid">
-                <p class="Hp">
+                    <p class="Hp">
                     Michael Schumacher
                     <br> es un expiloto alemán de automovilismo 
                     <br> Ha ganado siete veces el Campeonato Mundial de Fórmula 1: dos con el equipo Benetton en 1994 y 1995, 
@@ -95,14 +104,15 @@
                     <br> quien ostentaba dichos récords en la década de los 90. Salvo las vueltas rápidas, esos récords fueron batidos por Lewis Hamilton en 2020. 
                     <br> Si tenemos en cuenta el actual sistema de puntos, el Káiser contaría con 3890 puntos, siendo así el segundo piloto con más puntos en la 
                     <br> historia de Fórmula 1, solo por detrás de Hamilton.
-                </p>
+                    </p>
                 </div>
             </section>
         </aside>
         <footer class="pie">
             <section class="bg-pie">
-                <nav>
-                    <ul >
+               <div>
+                <nav class="redes ul">
+                    <ul>
                         <li><a href="facebook"class="redes">facebook</a></li>
                         <li><a href="youtube"class="redes">youtube</a></li>
                         <li><a href="Contacto"class="redes"></a>contactos</li>
@@ -112,10 +122,10 @@
                     <a href="index.html">
                         <img src="./assets/logo/logo.png.png" alt="logo.icon" class="logo">
                 </nav>
+               </div>
             </section>
         </footer>
     </div>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
