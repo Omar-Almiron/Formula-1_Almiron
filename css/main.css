@@ -1,0 +1,191 @@
+* {
+  font-family: "Nunito Sans", sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.encabezado {
+  background-color: #CC0000;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-style: groove;
+  border-color: #8D99AE;
+  height: 600px;
+}
+.encabezado .bg-index {
+  background-image: url(../assets/header/f1-header3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.encabezado .bg-index .logo {
+  height: 300px;
+}
+.encabezado .navegacion {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.encabezado .navegacion ul {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0%;
+  width: 100%;
+}
+.encabezado .navegacion ul li {
+  list-style: none;
+}
+.encabezado .navegacion ul li a {
+  background-color: #fefdfd;
+  border-radius: 2rem;
+  border-style: groove;
+  border-color: #8D99AE;
+  text-decoration-line: none;
+  color: #000000;
+  margin: 20px;
+}
+.encabezado .navegacion ul li a:hover {
+  background-color: #f2ff04;
+  border-radius: 2rem;
+  border-style: groove;
+  border-color: #8D99AE;
+  text-decoration-line: none;
+  color: #000000;
+}
+
+.titulo {
+  background-color: #CC0000;
+  border-radius: 2rem;
+  border-style: groove;
+  border-color: #8D99AE;
+  color: #fefdfd;
+  margin: 50px;
+  font-size: xx-large;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 10px;
+  border-right: 10px;
+  border-bottom: 0;
+  border-left: 0;
+  border-style: solid;
+  border-top-right-radius: 2rem;
+  border-color: #CC0000;
+  width: 100%;
+}
+
+.circuito {
+  width: 100%;
+}
+
+.paisaje {
+  font-weight: 900;
+  background-image: url(../assets/pistas/background-card.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 260px;
+  border-radius: 1rem;
+  margin: 10px;
+  width: 50%;
+}
+.paisaje p {
+  color: #fefdfd;
+  margin: 10px;
+  width: 100%;
+}
+
+.calendario {
+  border-radius: 1rem;
+  padding: 10px;
+  width: 100%;
+}
+
+.historia {
+  background-color: #1d3557;
+  border-radius: 2rem;
+  width: 100%;
+}
+.historia .Hjpg {
+  height: 30%;
+  width: 30%;
+  margin: 50px;
+}
+.historia .Hp {
+  color: #fefdfd;
+  padding: 20px;
+  width: 60%;
+}
+
+.pie {
+  background-image: url(../assets/footer/fondo-footer2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-style: groove;
+  border-color: #8D99AE;
+  margin-top: 20px;
+}
+.pie .bg-pie {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.pie .bg-pie .redes ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.pie .bg-pie .redes ul .redes {
+  color: #fefdfd;
+}
+.pie .bg-pie .logo {
+  height: 300px;
+}
+
+@media (max-width: 820px) {
+  .paisaje {
+    width: 80%;
+  }
+  .paisaje p {
+    font-size: x-small;
+  }
+  .Hp {
+    font-size: x-small;
+  }
+}
+@media (max-width: 412px) {
+  .bg-index {
+    height: 400px;
+  }
+  .logo {
+    height: 250px;
+  }
+  .titulo {
+    font-size: large;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .paisaje {
+    width: 90%;
+  }
+  .paisaje p {
+    font-size: xx-small;
+  }
+  .hamilton {
+    flex-direction: column;
+  }
+  .senna {
+    flex-direction: column;
+  }
+  .schumacher {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

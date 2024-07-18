@@ -1,0 +1,20 @@
+.pie{
+    background-image: $bg-img-footer;
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+    border-color: $grey;
+    margin-top: 20px;
+    .bg-pie{
+        @include direction-aling (column, flex-end);
+        .redes ul{
+            @include direction-aling (column, flex-end);
+            .redes{
+                color: $white;  
+            }
+        }
+        .logo{
+            height: 300px;
+        }
+    }
+}

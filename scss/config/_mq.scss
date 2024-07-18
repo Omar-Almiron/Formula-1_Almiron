@@ -1,0 +1,17 @@
+@media (max-width:820px){
+    .paisaje{width: 80%;}
+    .paisaje p{font-size: x-small}
+    .Hp{font-size: x-small}
+} 
+@media (max-width: 412px) {
+    .bg-index{height: 400px}
+    .logo{height: 250px}
+    .titulo{font-size: large}
+    .card{display: flex;flex-direction: column;}
+    .paisaje{width: 90%;}
+    .paisaje p{font-size: xx-small}
+    .hamilton{flex-direction: column}
+    .senna{flex-direction: column}
+    .schumacher{flex-direction: column}
+    
+}

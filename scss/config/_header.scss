@@ -1,0 +1,46 @@
+.encabezado{
+    background-color: $red;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-style: groove;
+    border-color: $grey;
+    height: 600px;
+    .bg-index{
+        background-image: $bg-imgf1-header;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        .logo{
+            height: 300px;
+        }
+    }
+    .navegacion{
+        @include justify-wrap-align (space-around,wrap,space-around);
+        ul{
+            display: flex;
+            justify-content: space-around;
+            padding-left: 0%;
+            width: 100%;
+            li{
+                list-style: none;
+                a{
+                    background-color: $white;
+                    border-radius: 2rem;
+                    border-style: groove;
+                    border-color: #8D99AE;
+                    text-decoration-line: none;
+                    color: $black;
+                    margin: 20px;
+                }
+                a:hover{
+                    background-color: $yellow;
+                    border-radius: 2rem;
+                    border-style: groove;
+                    border-color: $grey;
+                    text-decoration-line: none;
+                    color: $black;
+                }
+            }
+        }
+    }
+}
