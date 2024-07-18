@@ -1,0 +1,23 @@
+.circuito{
+    width: 100%;
+}
+.paisaje{
+    font-weight: 900;
+    background-image: $bg-img-pistas;
+    background-position: center;
+    background-size: cover;
+    height: 260px; 
+    border-radius: 1rem;
+    margin: 10px;
+    width: 50%;
+    p{
+        color: $white;
+        margin: 10px;
+        width: 100%;
+    }
+}
+.calendario{
+    border-radius: 1rem;
+    padding: 10px;
+    width: 100%;
+}

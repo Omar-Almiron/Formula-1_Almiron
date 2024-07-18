@@ -1,0 +1,16 @@
+@mixin direction-aling ($direc, $ai){
+    display: flex;
+    flex-direction: $direc;
+    align-items: $ai;
+}
+@mixin justify-wrap-align ($justi, $wr, $ac){
+    display: flex;
+    justify-content: $justi;
+    flex-wrap: $wr;
+    align-content: $ac;
+}
+@mixin direction-justify ($dir-r, $jus-c){
+    display: flex;
+    flex-direction: $dir-r;
+    justify-content: $jus-c;
+}
