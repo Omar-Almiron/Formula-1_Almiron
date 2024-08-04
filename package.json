@@ -7,7 +7,7 @@
     "sass": "sass --watch scss/style.scss css/main.css"
 
   },
-  "author": "",
+  "author": "omar",
   "license": "ISC",
   "description": ""
 }
